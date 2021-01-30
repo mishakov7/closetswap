@@ -1,0 +1,62 @@
+section {
+    margin: 200px 0 0 0;
+    height: 90vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.front-splatter {
+    width: 60%;
+    height: 100%;
+    background-image: url('../../assets/images/front-splatter.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.call2action {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 20px;
+}
+
+.action-text {
+    color: #fff;
+    font-family: AgencyFB;
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.today-text {
+    color: #161616;
+    font-family: AgencyFB;
+    font-size: 8em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: -2px -2px 0 rgb(128, 255, 102), 
+                  2px -2px 0 rgb(128, 255, 102), 
+                  -2px 2px 0 rgb(128, 255, 102), 
+                  2px 2px 0 rgb(128, 255, 102);
+}
+
+.res-button {
+    border-radius: 5px;
+    background-color: rgb(0, 56, 0);
+    font-family: Roboto;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 15px;
+    width: 250px;
+    color: rgb(0, 214, 0);
+
+    transition: background-color 2s, color 2s;
+}
+
+.res-button:hover {
+    background-color: rgb(116, 209, 98);
+    color: #222;
+}

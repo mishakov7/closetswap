@@ -1,0 +1,61 @@
+#frontinfo-section {
+    display: flex; 
+    height: 120vh;
+    margin-top: -10px;
+}
+
+#info-hours {
+    margin-left: 20%;
+}
+
+#info-contact {
+    margin-right: 20%;
+}
+
+.infosection {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title {
+    font-family: AgencyFB;
+    font-size: 2.5em;
+    margin: 15px 0;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.hour {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    height: 50px;
+
+    background-color: rgb(0, 56, 0);
+    margin: 5px 0;
+    padding: 5px 15px;
+}
+
+.infosection {
+    align-items: center;
+}
+
+.infosection p {
+    color: white;
+    text-align: center;
+}
+
+.hour .green-verbage {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: "AgencyFB Bold";
+}
+
+.extranote {
+    font-family: AgencyFB;
+    font-size: 1em;
+    color: rgb(0, 150, 0);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

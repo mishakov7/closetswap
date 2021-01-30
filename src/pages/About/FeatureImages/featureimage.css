@@ -1,0 +1,40 @@
+/* Feature Image */
+
+.feature-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100vw;
+    height: 120vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feature-icon {
+    margin: 50px 0;
+    width: 100%;
+    height: 200px;
+}
+
+hr {
+    border: solid 1px rgb(0, 214, 0);
+    width: 40%;
+}
+
+.feature-verbage {
+    font-family: AgencyFB;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: white;
+    width: 55%;
+    text-align: center;
+}
+
+.abtfeature1-bg {
+    background-image: url('../../../assets/images/about-img-1.png');
+}
+
+.abtfeature2-bg {
+    background-image: url('../../../assets/images/about-img-2.png');
+}

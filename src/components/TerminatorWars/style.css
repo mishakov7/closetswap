@@ -1,0 +1,30 @@
+#terminator-section {
+    background-image: url('../../assets/images/terminator-wars.png');
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-verbage {
+    font-family: AgencyFB;
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: rgb(0, 214, 0);
+}
+
+#terminator-section .green-verbage, #terminator-section .white-verbage {
+    margin-left: -350px;
+}
+
+#terminator-section .green-verbage {
+    font-size: 4em;
+}
+
+#terminator-section .white-verbage {
+    font-size: 2.5em;
+    text-transform: lowercase;
+}
