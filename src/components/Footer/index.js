@@ -1,6 +1,4 @@
 import React from 'react';
-import './style.css';
-
 // Imports
 import FBIcon from '../../assets/icons/facebook-icon.svg';
 import YTIcon from '../../assets/icons/youtube-icon.svg';

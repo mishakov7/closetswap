@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import * as Routes from '../../constants/routes';
 
 // Other imports
-import './style.css';
 import Logo from '../../assets/icons/nav-logo.svg';
 import Cart from '../../assets/icons/nav-cart-icon.svg';
 
@@ -17,8 +16,7 @@ const ItemStyles = {
     textTransform: "uppercase",
     letterSpacing: "2px",
     textDecoration: "none",
-    margin: "0 20px 0 10px",
-    color: "white"
+    margin: "0 20px 0 10px"
 }
 
 const Navigation = () => ( 

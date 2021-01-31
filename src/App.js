@@ -13,7 +13,7 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 
 // Styles
-import './App.css';
+// import './App.css';
 
 class App extends Component { 
 

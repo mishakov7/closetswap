@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import './style.css';
-
 class Cart extends Component {
     constructor(props) {
         super(props);

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './style.css';
 import Hours from '../../assets/icons/hours-icon.svg';
 import Contact from '../../assets/icons/contact-icon.svg';
 

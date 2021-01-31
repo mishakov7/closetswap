@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 // Other imports
-import './style.css';
 import ImgIcon1 from '../../assets/icons/front-logo.svg';
 import ImgIcon2 from '../../assets/icons/paintball-icon1.svg';
 import ImgIcon3 from '../../assets/icons/ribbon-icon.svg';

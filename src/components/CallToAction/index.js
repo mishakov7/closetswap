@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './style.css';
-
 const CallToAction = () => (
     <section>
         <div class="front-splatter"></div>
